@@ -2,7 +2,17 @@
 This repository contains the first QA challenge development
 
 ## Repository Structure
-For this project
+For this project, a Page Objects Pattern was used.
+
+In the src folder, there are subfolder that contains specific parts to be used in the project.
+
+The src folder contains three sub folders, which are:
+
+- common: contains the functions that can be shared among tests.
+- pages: contains the selectors used in the tests. Each page has its own selectors.
+- setup: contains the functions that setup the environment/browser.
+
+The test folder contains all the tests belonging to the project.
 
 ## Test Case
     - Go to twitch.tv
