@@ -63,5 +63,5 @@ def test_select_streamer_mobile_view(browser):
     accept_classification_gate(browser)
 
     info("Taking a screenshot")
-    browser.save_screenshot("screenshot.png")
+    browser.save_screenshot("evidence/screenshot.png")
     sleep(5)
