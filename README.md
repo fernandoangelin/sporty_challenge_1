@@ -14,6 +14,8 @@ The src folder contains three sub folders, which are:
 
 The test folder contains all the tests belonging to the project.
 
+The evidence folder contains all the evidence generated for this project.
+
 ## Test Case
     - Go to twitch.tv
         - Close the cookies modal
@@ -28,7 +30,7 @@ The test folder contains all the tests belonging to the project.
 ## Test Run GIF
 As requested, below, one can find the test run GIF:
 
-<img src="1-test_run_recorded.gif" width="250" height="500">
+<img src="evidence/1-test_run_recorded.gif" width="250" height="500">
 
 ## Additional Test Case
     - Go to a streamer page that has the classification gate
@@ -38,4 +40,4 @@ As requested, below, one can find the test run GIF:
 ## Additional Test Run GIF
 Below, one can find the test run GIF:
 
-<img src="2-additional_test_run_recorded.gif" width="250" height="500">
+<img src="evidence/2-additional_test_run_recorded.gif" width="250" height="500">
