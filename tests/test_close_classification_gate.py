@@ -5,6 +5,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from src.common.common_methods import accept_classification_gate
 from src.common.common_methods import delete_cookies_modal
 from src.pages.homepage import Homepage
+from src.pages.streamer import Streamer
 from src.setup.setup_browser import browser
 from time import sleep
 
@@ -25,6 +26,13 @@ def test_close_classification_gate_mobile_view(browser):
 
     # wait to make sure the page is loaded
     sleep (2)
+
+    # accessing in the first video
+    first_video_option = wait.until(
+        EC.presence_of_element_located((By.CSS_SELECTOR, Streamer.first_video_selector))
+    )
+    first_video_option.click()
+
     info("Accepting classification gate if displayed")
     accept_classification_gate(browser)
     # wait to make sure the page is loaded
