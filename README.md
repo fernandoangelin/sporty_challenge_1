@@ -1,6 +1,17 @@
 # sporty_challenge_1
 This repository contains the first QA challenge development
 
+## How to run the tests
+To run all the tests, one should run the following command:
+```shell
+pytest tests/
+```
+To run each test separately, one should run the following command, replacing the test_TEST-NAME by the name of the file in the tests folder:
+```shell
+pytest tests/test_TEST-NAME
+```
+
+
 ## Repository Structure
 For this project, a Page Objects Pattern was used.
 
