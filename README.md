@@ -11,7 +11,6 @@ To run each test separately, one should run the following command, replacing the
 pytest tests/test_TEST-NAME
 ```
 
-
 ## Repository Structure
 For this project, a Page Objects Pattern was used.
 
@@ -46,6 +45,7 @@ As requested, below, one can find the test run GIF:
 ## Additional Test Case
     - Go to a streamer page that has the classification gate
         - Close the cookies modal
+    - Access the first video
     - Close classification gate pop-up if displayed
 
 ## Additional Test Run GIF
