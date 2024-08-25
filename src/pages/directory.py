@@ -1,2 +1,2 @@
 class Directory:
-    video_list_selector = 'main > div > div > div > div > article > a'
+    video_list_selector = 'main > div article > a'
